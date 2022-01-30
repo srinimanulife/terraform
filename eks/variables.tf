@@ -3,6 +3,16 @@ variable "region" {
   description = "AWS region"
 }
 
+variable "access_key" {
+  default     = "Provide in run time"
+  description = "access_key"
+}
+
+variable "secret_key" {
+  default     = "Provide in run time"
+  description = "secret_key"
+}
+
 variable "cluster_name" {
   default = "getting-started-eks"
 }
