@@ -4,12 +4,12 @@ variable "region" {
 }
 
 variable "access_key" {
-  default     = "Provide in run time"
+  default     = ""
   description = "access_key"
 }
 
 variable "secret_key" {
-  default     = "Provide in run time"
+  default     = ""
   description = "secret_key"
 }
 
