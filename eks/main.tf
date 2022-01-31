@@ -2,12 +2,6 @@ terraform {
   required_version = ">= 0.12.0"
 }
 
-provider "aws" {
-  version = ">= 2.28.1"
-  region  = var.region
-  access_key=var.access_key
-  secret_key=var.secret_key
-}
 
 data "aws_eks_cluster" "cluster" {
   name = module.eks.cluster_id
