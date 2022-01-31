@@ -3,12 +3,6 @@ variable "region" {
   description = "AWS region"
 }
 
-variable "access_key" {
-}
-
-variable "secret_key" {
-}
-
 variable "cluster_name" {
   default = "getting-started-eks"
 }
