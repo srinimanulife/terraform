@@ -2,6 +2,8 @@ terraform {
   required_version = ">= 0.12.0"
 }
 
+variable "access_key" {}
+variable "secret_key" {}
 
 data "aws_eks_cluster" "cluster" {
   name = module.eks.cluster_id
